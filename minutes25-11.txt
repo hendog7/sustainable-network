@@ -1,0 +1,5 @@
+resistors for safety
+if using one room, only need one Arduino. using smart plugs, so all components can be connected to a single one.
+if we want to model multiple rooms then more than one Arduino needed.
+asked if possible to geographically separate components whilst they're connected to the Arduino- unsure.
+outdoor lights photoresistors connected to smart plugs- can detect power etc.

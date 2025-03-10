@@ -1,0 +1,33 @@
+zigbee has different freq.s
+2.4 GHz same as wifi- lower energy- coin battery lasts year
+wifi better for video cam
+zigbee 800MHz, much lower
+different freq.s some work better than others
+
+ordering- small batches- need to know if don't work
+interconnectivity
+worth having one before Christmas
+
+currently have zigbee shield and sensors
+
+going to use smart plug as opposed to current sensors- need to strip wires- health and safety concern
+automated zigbee comms w/ rasp pi, still need to setup zigbee w/ sensors
+
+asking if sensors available in labs pre setup
+order a sensor
+need lab space
+
+coral ai needs specific python- not much progress yet
+
+home assistant OS on rasp pi, can use api w/ json to export data to website e.g.
+
+okay to borrow pre-existing solutions if appropriate
+
+actions:
+-order-
+	rasp pi 
+	sensors
+
+check xbees for frequency- range important (zigbee not good through walls- may use just one room)
+
+book lab space- can have meetings in lab space
