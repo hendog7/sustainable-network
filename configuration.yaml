@@ -1,0 +1,34 @@
+default_config:
+
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+mqtt:
+  sensor:
+    - name: "Temperature"
+      state_topic: "home/sensor/xbee"
+      value_template: "{{ value_json.temperature }}"
+      unit_of_measurement: "°C"
+      unique_id: "sensor_indoor_temperature"
+    - name: "Humidity"
+      state_topic: "home/sensor/xbee"
+      value_template: "{{ value_json.humidity }}"
+      unit_of_measurement: "%"  
+      unique_id: "sensor_indoor_humidity"
+
+recorder:
+  purge_keep_days: 7
+
+history:
+
+type: entities
+title: XBee Data
+entities:
+  - entity: sensor.sensor_indoor_temperature
+    name: "Temperature"
+  - entity: sensor.sensor_indoor_humidity
+    name: "Humidity"
