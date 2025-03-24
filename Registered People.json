@@ -1,0 +1,10 @@
+{
+    "people": 
+    [ 
+        {"name": "Henna Parmar", "image_path": "henna.jpg", "email_address": "ij22387@bristol.ac.uk"}, 
+        {"name": "Jennie Cohen", "image_path": "jennie.jpg", "email_address": "pl22413@bristol.ac.uk"}, 
+        {"name": "Steven Badrie", "image_path": "steven.jpg", "email_address": "ma22790@bristol.ac.uk"}, 
+        {"name": "Samuel Ogunmwonyi", "image_path": "sam.jpg", "email_address": "my22652@bristol.ac.uk"}, 
+        {"name": "Haoran Shi", "image_path": "haoran.jpg", "email_address": "or21100@bristol.ac.uk"} 
+    ]
+}
